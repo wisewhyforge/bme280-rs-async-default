@@ -21,7 +21,7 @@ embedded-hal-async = { version = "1.0.0", optional = true }
 maybe-async-cfg = "0.2.3"
 
 [features]
-default = ["sync"]
+default = ["async"]
 with_defmt = ["defmt"]
 with_std = ["derive_more"]
 sync = []
